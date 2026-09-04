@@ -4,6 +4,46 @@ A curated, growing collection of core Java knowledge — concise notes and code 
 
 ## Contents
 
+### Language Fundamentals
+| Topic | Description |
+|-------|-------------|
+| [Java Basics](topics/basics.md) | Syntax, primitive types, variables, operators, control flow, arrays, methods, strings |
+| [Object-Oriented Programming](topics/oop.md) | Encapsulation, inheritance, polymorphism, abstraction, interfaces vs. abstract classes |
+| [Collections Framework](topics/collections.md) | List/Set/Map/Queue, complexity trade-offs, iteration, concurrent collections |
+| [Generics](topics/generics.md) | Generic classes/methods, bounded types, wildcards (PECS), type erasure |
+| [Exception Handling](topics/exceptions.md) | Checked vs. unchecked, try-with-resources, custom exceptions, common pitfalls |
+| [Streams & Lambdas](topics/streams-and-lambdas.md) | Lambda expressions, method references, the Stream API, collectors, Optional |
+| [Records, Sealed Types & Pattern Matching](topics/records-and-pattern-matching.md) | Records, sealed interfaces, switch expressions, pattern matching (Java 14-21) |
+
+### JVM & Concurrency
+| Topic | Description |
+|-------|-------------|
+| [JVM Internals](topics/jvm-internals.md) | Class loading, memory areas, garbage collection, JIT compilation, common flags |
+| [Concurrency](topics/concurrency.md) | Threads, ExecutorService, the Java Memory Model, synchronization, CompletableFuture, virtual threads |
+
+### Design & Testing
+| Topic | Description |
+|-------|-------------|
+| [Design Patterns](topics/design-patterns.md) | Singleton, Builder, Factory, Adapter, Decorator, Strategy, Observer, Template Method |
+| [Testing (JUnit & Mockito)](topics/testing-junit.md) | JUnit 5 basics, lifecycle annotations, parameterized tests, mocking, test structure |
+
+### Ecosystem
+| Topic | Description |
+|-------|-------------|
+| [Spring & Spring Boot](topics/spring-basics.md) | Dependency injection, stereotype annotations, REST controllers, Spring Data JPA, testing |
+
+## Why This Exists
+
+This repo is a personal reference and portfolio piece — a place to consolidate Java concepts in one browsable, linkable format rather than scattered notes. More topics may be added over time (build tools, file I/O, the Date/Time API).
+
+## Contributing
+
+This is primarily a personal knowledge base, but corrections and suggestions via issues or pull requests are welcome. Java Knowledge Base
+
+A curated, growing collection of core Java knowledge — concise notes and code examples covering the language fundamentals every Java developer should know.
+
+## Contents
+
 | Topic | Description |
 |-------|-------------|
 | [Java Basics](topics/basics.md) | Syntax, primitive types, variables, operators, control flow, arrays, methods, strings |
